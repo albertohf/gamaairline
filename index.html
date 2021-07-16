@@ -202,36 +202,33 @@
           Cadastre-se e receba seu desconto
         </h2>
         <div
-          class="
-            bg-black bg-opacity-40
-            flex flex-col
-            p-8
-            mt-12
-            w-screen
-            md:container
-          "
+          class="bg-black bg-opacity-40 w-screen md:container"
+          id="formulario"
         >
-          <label class="mt-2 text-white">Nome</label>
-          <input class="" type="text" />
-          <label class="mt-2 text-white">Email</label>
-          <input class="" type="email" />
-          <button
-            class="
-              h-14
-              mt-6
-              text-white
-              rounded-2xl
-              bg-red-600
-              font-medium
-              text-2xl
-              hover:bg-red-700
-            "
-            type="submit"
-          >
-            Quero Meu Cupom 30%
-          </button>
+          <form class="flex flex-col p-8 mt-12" action="">
+            <label class="mt-2 text-white">Nome</label>
+            <input class="" type="text" id="nome" />
+            <label class="mt-2 text-white">Email</label>
+            <input class="" type="email" id="email" />
+            <button
+              class="
+                h-14
+                mt-6
+                text-white
+                rounded-2xl
+                bg-red-600
+                font-medium
+                text-2xl
+                hover:bg-red-700
+              "
+              type="submit"
+            >
+              Quero Meu Cupom 30%
+            </button>
+          </form>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
